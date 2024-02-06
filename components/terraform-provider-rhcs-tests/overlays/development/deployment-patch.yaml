@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: terraform-provider-rhcs-tests
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-provider-rhcs-tests/terraform-provider-rhcs-tests@sha256:b4ed406a7a7c7a46daf9133a9ae71efb28aeb6a10ac17e6f773b49d1bd57229a
+        name: container-image
+        resources: {}
+status: {}

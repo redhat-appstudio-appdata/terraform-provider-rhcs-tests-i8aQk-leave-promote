@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: terraform-provider-rhcs-tests
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: terraform-provider-rhcs-tests
+    app.kubernetes.io/part-of: terraform-provider-rhcs-tests
+  name: terraform-provider-rhcs-ttm1w
+spec:
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: terraform-provider-rhcs-tests
+    weight: 100
+status: {}
