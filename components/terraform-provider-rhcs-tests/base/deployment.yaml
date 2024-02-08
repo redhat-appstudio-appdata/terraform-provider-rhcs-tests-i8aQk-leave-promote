@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: terraform-provider-rhcs-tests
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-provider-rhcs-tests/terraform-provider-rhcs-tests@sha256:f39f2693cf42ec41fee62bc644376187144fd0172150ecb2615b6f7616f32866
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-provider-rhcs-tests/terraform-provider-rhcs-tests@sha256:d3efe7bd8364117d1eab528b166e098f9891e881fd3133e8ff3a4a44427c8169
         imagePullPolicy: Always
         name: container-image
         ports:
