@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-provider-rhcs-tests/terraform-provider-rhcs-tests@sha256:d3efe7bd8364117d1eab528b166e098f9891e881fd3133e8ff3a4a44427c8169
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-provider-rhcs-tests/terraform-provider-rhcs-tests@sha256:13d6415a14e15b1258af4311e5882b366cc572872ff1206a3f2bfd62487355a2
         name: container-image
         resources: {}
 status: {}
