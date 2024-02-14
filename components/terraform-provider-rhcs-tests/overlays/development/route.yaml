@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: terraform-provider-rhcs-tests
     app.kubernetes.io/part-of: terraform-provider-rhcs-tests
-  name: terraform-provider-rhcs-ttm1w
+  name: terraform-provider-rhcs-tdvyj
 spec:
   port:
     targetPort: 8080
